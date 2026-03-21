@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:clickhouse://localhost:8123/rt_music?compress=0
+    username: default
+    password:
+    driver-class-name: com.clickhouse.jdbc.ClickHouseDriver
+
