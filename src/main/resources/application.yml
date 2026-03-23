@@ -8,3 +8,7 @@ spring:
     password:
     driver-class-name: com.clickhouse.jdbc.ClickHouseDriver
 
+ai:
+  assistant:
+    kafka-bootstrap-servers: localhost:9092
+    ods-topic: ods_log_ai_assistant
